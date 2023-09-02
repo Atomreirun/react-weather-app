@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather default="New York" />
+        <Weather defaultCity="New York" />
         <footer>
           This project was created by Arlene Runyon and is{" "}
           <a
@@ -15,7 +15,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on Github.
+            open-sourced on Github and hosted on Netlify.
           </a>
         </footer>
       </div>

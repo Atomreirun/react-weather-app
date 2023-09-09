@@ -1,6 +1,6 @@
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 2px solid gray;
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
@@ -11,6 +11,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
+  color: blue;
 }
 
 .Weather ul {
@@ -26,7 +27,7 @@
 }
 
 .Weather canvas {
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 5px;
   display: inline-block;
 }
